@@ -7,7 +7,7 @@
             "technologies": [""],
             "live_link": "",
             "github_link": "https://github.com/willstutely/Techdegree-Proj-1",
-            "image_urls": [""]
+            "image_urls": ["/images/randomQuote1.png", "/images/randomQuote2.png"]
         },
         {
             "id": 1,
@@ -16,7 +16,7 @@
             "technologies": [""],
             "live_link": "",
             "github_link": "https://github.com/willstutely/TreeHouse-Project-2---Pagination",
-            "image_urls": [""]
+            "image_urls": ["/images/pagination1.png", "/images/pagination2.png", "/images/pagination3.png"]
         },
         {
             "id": 2,
@@ -25,16 +25,16 @@
             "technologies": [""],
             "live_link": "",
             "github_link": "https://github.com/willstutely/Techdegree-Proj-3",
-            "image_urls": [""]
+            "image_urls": ["/images/registration1.png", "/images/registration2.png"]
         },
         {
             "id": 3,
             "project_name": "O.O.P. Game Show",
-            "description": "Using the classic 'Connect Four' game, this project explores the possibiliites of Object Oriented Programming.",
+            "description": "Users play a phrase guessing game...",
             "technologies": [""],
             "live_link": "",
             "github_link": "https://github.com/willstutely/Techdegree-Proj-4",
-            "image_urls": [""]
+            "image_urls": ["/images/gameshow1.png", "/images/gameshow2.png"]
         },
         {
             "id": 4,
@@ -43,7 +43,16 @@
             "technologies": [""],
             "live_link": "",
             "github_link": "https://github.com/willstutely/Techdegree-Proj-5",
-            "image_urls": [""]
+            "image_urls": ["/images/apiRequest1.png", "/images/apiRequest2.png"]
+        },
+        {
+            "id": 5,
+            "project_name": "Guest List RSVP",
+            "description": "An interactive guest list generator that allows the user to add invitees, and filter by invitee response",
+            "technologies": [""],
+            "live_link": "",
+            "github_link": "https://github.com/willstutely/Guest-List",
+            "image_urls": ["/images/rsvp1.png", "/images/rsvp2.png"]
         }
     ]
 }

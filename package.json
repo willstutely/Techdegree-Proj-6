@@ -1,0 +1,19 @@
+{
+  "name": "techdegree-proj-6",
+  "version": "1.0.0",
+  "description": "Static Node.js and Express Site",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/willstutely/Techdegree-Proj-6.git"
+  },
+  "author": "Jonathan Drake",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/willstutely/Techdegree-Proj-6/issues"
+  },
+  "homepage": "https://github.com/willstutely/Techdegree-Proj-6#readme"
+}

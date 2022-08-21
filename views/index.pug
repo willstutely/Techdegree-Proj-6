@@ -5,10 +5,10 @@ block content
   article.portfolio-intro
 
     //- Replace with your own heading like 'My Portfolio', or 'Hey, Potential Employers', or 'Let's make the web great together!' 
-    h1 Heading
+    h1 The Digital Workshop Showcase
 
     //- Replace with a description for your portfolio, what this project is, it's purpose, what it's supposed to accomplish, etc. 
-    p Portfolio description
+    p Normally, I'm covered in actual sawdust, and my fingers show the signs of errant chisel strikes. I'm not sure what the coding equivalent is to such battle scars, but each of the following projects represents the skills I've gained from the TreeHouse Full Stack Techdegree Program.  Click on the thumbnails to browse each project and see what I've learned!
 
 
   article.portfolio-project-thumbs
@@ -20,9 +20,9 @@ block content
           //- The paths in the link's href and img's src attributes
           //- The text 'Thumbnail' interpolated with the project title for the img's alt attribute
           //- The project title for the h5 element's text
-
+      each project in projects
         .cell
-          a(href='#')
-            img.thumbnail(src='https://placehold.it/550x550', alt='')
-            h5 My Site
+          a(href=`/projects/${project.id}`)
+            img.thumbnail(src=`${project.image_urls[0][0]}`, alt=`${project.image_urls[0][1]}`)
+            h5= project.project_name
 

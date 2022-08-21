@@ -1,0 +1,58 @@
+{
+    "projects": [
+        {
+            "id": 0,
+            "project_name": "Random Quote Generator",
+            "description": "A stored set of quotes is randomly iterated through and displayed, either automatically or by user input.",
+            "technologies": ["Javascript", "HTML", "CSS"],
+            "live_link": "",
+            "github_link": "https://github.com/willstutely/Techdegree-Proj-1",
+            "image_urls": [["/static/images/randomQuote1.png", "Sam Spade Quote"], ["/static/images/randomQuote2.png", "Calvin and Hobbes"]]
+        },
+        {
+            "id": 1,
+            "project_name": "Pagination",
+            "description": "Pulling from an array of fictional students, this project demonstrates the generation of display pages and the ability to cycle through them.",
+            "technologies": ["Javascript", "HTML", "CSS"],
+            "live_link": "",
+            "github_link": "https://github.com/willstutely/TreeHouse-Project-2---Pagination",
+            "image_urls": [["/static/images/pagination1.png", "image1"], ["/static/images/pagination2.png", "image2"], ["/static/images/pagination3.png", "image3"]]
+        },
+        {
+            "id": 2,
+            "project_name": "Interactive Registration Form",
+            "description": "This project explores the use of form validation, user selective input, and filtered options in dropdown menus.",
+            "technologies": ["Javascript", "HTML", "CSS"],
+            "live_link": "",
+            "github_link": "https://github.com/willstutely/Techdegree-Proj-3",
+            "image_urls": [["/static/images/registration1.png", "image1"], ["/static/images/registration2.png", "image2"]]
+        },
+        {
+            "id": 3,
+            "project_name": "O.O.P. Game Show",
+            "description": "Users play a phrase guessing game...",
+            "technologies": ["Javascript", "HTML", "CSS"],
+            "live_link": "",
+            "github_link": "https://github.com/willstutely/Techdegree-Proj-4",
+            "image_urls": [["/static/images/gameshow1.png", "image1"], ["/static/images/gameshow2.png", "image2"]]
+        },
+        {
+            "id": 4,
+            "project_name": "Public API Requests",
+            "description": "Using the randomuser.me API this project demonstrates sending fetch() requests, the use of modal windows, and cycling through listed items via user input.",
+            "technologies": ["Javascript", "HTML", "CSS"],
+            "live_link": "",
+            "github_link": "https://github.com/willstutely/Techdegree-Proj-5",
+            "image_urls": [["/static/images/apiRequest1.png", "image1"], ["/static/images/apiRequest2.png", "image2"]]
+        },
+        {
+            "id": 5,
+            "project_name": "Guest List RSVP",
+            "description": "An interactive guest list generator that allows the user to add invitees, and filter by invitee response",
+            "technologies": ["Javascript", "HTML", "CSS"],
+            "live_link": "",
+            "github_link": "https://github.com/willstutely/Guest-List",
+            "image_urls": [["/static/images/rsvp1.png", "image1"], ["/static/images/rsvp2.png", "image2"]]
+        }
+    ]
+}

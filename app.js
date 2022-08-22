@@ -29,18 +29,18 @@ app.use((req, res, next) => {
 
   app.use((err, req, res, next) => {
     res.locals.error = err;
-       
     if (err.status === undefined) {
         err.status = 500
-        err.message = "Whoops... the page you're looking for can't be found (Error 500)"
+        err.message = "Whoops... there was a problem handling your request (Error 500)"
+        console.log(err.message);
         res.status(err.status)
         res.render('error');
     } else {
         err.message = "Whoops... the page you're looking for can't be found (Error 404)"
+        console.log(err.message);
         res.status(err.status)
         res.render('page-not-found');
     }
-    
   })
 
 app.listen(3000, () => {

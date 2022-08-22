@@ -144,9 +144,23 @@ nav a span {
   margin: auto;
 }
 
+
 .thumbnail-box {
   padding: 0 10px;
 }
+
+.thumbnail-box img:last-child {
+  display: none;
+}
+
+.thumbnail-box:hover img:last-child {
+  display: block;
+}
+
+.thumbnail-box:hover img:first-child {
+  display: none;
+}
+
 
 .sidebar .thumbnail {
   width: 100%;
@@ -362,3 +376,4 @@ nav a span {
     max-width: 1200px;
   }
 }
+

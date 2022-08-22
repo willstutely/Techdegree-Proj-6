@@ -51,7 +51,7 @@ h6{
 
 p{
   font-size: 15px;
-  color: #666;
+  color: #667;
 }
 
 a {
@@ -101,7 +101,6 @@ a {
   font-size: 13px;
 }
 
-
 /*
   Sidebar and mobile header
 */
@@ -117,6 +116,7 @@ nav a {
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 600;
   font-size: 13px;
+  font-style: italic;
   letter-spacing: 2.5px;
   text-transform: uppercase;
   color: #555; 
@@ -144,23 +144,24 @@ nav a span {
   margin: auto;
 }
 
-
 .thumbnail-box {
   padding: 0 10px;
 }
 
+/*
+Changing bio thumbnail image with hover
+*/
 .thumbnail-box img:last-child {
   display: none;
 }
 
 .thumbnail-box:hover img:last-child {
-  display: block;
+  display: inline;
 }
 
 .thumbnail-box:hover img:first-child {
   display: none;
 }
-
 
 .sidebar .thumbnail {
   width: 100%;
@@ -232,7 +233,6 @@ nav a span {
   background: #fefefe;
 }
 
-
 /*
   Home page styles
 */
@@ -276,6 +276,9 @@ nav a span {
   box-shadow: 0 0 0 1px rgba(10, 10, 10, 0.2);
 }
 
+.cell img:hover {
+  box-shadow: 0 0 0 4px rgba(10, 10, 10, 0.2);
+}
 
 /* 
   About and project pages styles 
@@ -300,6 +303,14 @@ nav a span {
   margin-bottom: 15px;
   border: 4px solid #fff;
   box-shadow: 0 0 0 1px rgba(10, 10, 10, 0.2);
+}
+
+.error-img {
+  width: 100%;
+  max-width: 1065px;
+  margin-bottom: 15px;
+  border: 4px solid #fff;
+  box-shadow: 0 0 0 3px rgba(10, 10, 10, 0.2);
 }
 
 .btn-link {

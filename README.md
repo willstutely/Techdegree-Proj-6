@@ -6,3 +6,5 @@ Some changes to the CSS stylesheet were made, such as:
     - The bio thumbnail image changes when hovered over
     - Project thumbnails increase box-shadow on hover
     - "Back" navigation buttons changed to italics
+    - Navigation section background color changed
+    - "Back" navigation buttons changed to white to stand out from background
